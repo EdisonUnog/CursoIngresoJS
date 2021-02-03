@@ -7,3 +7,4 @@ function mostrar()
 	alert("ok");
 }
 
+//txtIdNombre
