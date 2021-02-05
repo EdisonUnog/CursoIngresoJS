@@ -11,7 +11,7 @@ function sumar()
 
 	let num1= parseInt(document.getElementById("txtIdNumeroUno").value);
 	let num2= parseInt(document.getElementById("txtIdNumeroDos").value);
-	suma= num1 + num2 ;
+	let suma= num1 + num2 ;
 	alert(suma);
 }
 

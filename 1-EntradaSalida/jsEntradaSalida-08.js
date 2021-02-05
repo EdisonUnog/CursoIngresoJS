@@ -7,6 +7,6 @@ function SacarResto()
 {
 	let num1=parseInt(document.getElementById("txtIdNumeroDividendo").value);
 	let num2=parseInt(document.getElementById("txtIdNumeroDivisor").value);
-	resultado= num1 % num2;
+	let resultado= num1 % num2;
 	alert("El resto de la division es: " + resultado);
 }
