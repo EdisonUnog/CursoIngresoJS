@@ -1,11 +1,25 @@
 function mostrar()
 {
 	//tomo la hora
-	var horaDelDia =txtIdHora.value;
-	alert(horaDelDia);
+	var horaDelDia =parseInt(document.getElementById("txtIdHora").value);
+	
+	switch(horaDelDia){
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		  alert("ES DE MAÑANA");
+		  break;	
+	default:
+		alert("No es de mañana");
+	}
+		
+}
 	
 	
+	
 
 
 
-}//FIN DE LA FUNCIÓN
+//FIN DE LA FUNCIÓN
