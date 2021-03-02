@@ -16,6 +16,7 @@ function mostrar()
 	 // otra forma de escribir un par de opciones
     switch(mesDelAño){
 		case "Enero":
+		case "Febrero":
 			alert("que comiences bien el año");
 			break;
 	    case "Marzo":
